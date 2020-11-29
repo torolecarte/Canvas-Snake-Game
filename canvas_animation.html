@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation Example</title>
+  <style>
+    #exemplo {
+      background-color: red;
+      border: 2px solid #0000ff;
+    }
+  </style>
+  <script src="scripts/script_animacao.js"></script>
+</head>
+
+<body>
+  <p><a href="index.html">Voltar</a></p>
+  <div>
+    <button type="button" id="btnDrawWithSetInterval">Desenhar com SetInterval</button>
+    <button type="button" id="btnDrawWithSetTimeout">Desenhar com SetTimeout</button>
+    <button type="button" id="btnDrawWithRequestAnimationFrame">Desenhar com RequestAnimationFrame</button>
+    <a href="canvas_animation.html">Recarregar</a>
+  </div>
+  <br />
+  <canvas id="exemplo" width="800" height="150">
+    Canvas not available in your browser.
+  </canvas>
+</body>
+
+</html>
